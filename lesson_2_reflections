@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+a hidden directory is created where meta data about the files is stored.
+you need to do it so there is somewhere to store meta data, so git can
+start keeping track of changes to your files.
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+staging is totally controled by git... it gives git the ability to operate
+directly on the the various files it needs.
